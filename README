@@ -1,0 +1,26 @@
+Calcyoulater - Reverse Polish Notation Arithmetic
+Author: Vincent Bett.
+
+Purpose:
+        To implement a Reverse Polish otation Calculator similar to the
+        built in Unix dc calculator.
+Acknowledgements:
+        MyCodeSchool tutorials on YouTube
+Files:
+        DoubleStack.h
+                Header file for the stack implementation
+        DoubleStack.cpp
+                The cpp file containing the code for the stack implementation
+        RPNCalc.h
+                Header file for the RPN calculator.
+        RPNCalc.cpp
+                Cpp file that launches the RPN calculator and performs
+                calculations on user input or input from a file.
+To Compile.
+        clang++ -Wall -Wextra -g DoubleStack.cpp RPNCalc.cpp
+Data structures used.
+        I used a dynamic array to implement my stack class.
+        Dynamic arrays are useful because they can grow or shrink
+        depending on the data stored in them.
+        
+
